@@ -1,0 +1,30 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "[!S]*/**": true,
+        "S[!e]*/**": true,
+        "Se[!s]*/**": true,
+        "Ses[!s]*/**": true,
+        "Sess[!i]*/**": true,
+        "Sessi[!o]*/**": true,
+        "Sessio[!n]*/**": true,
+        "Session[! ]*/**": true,
+        "Session [!1]*/**": true,
+        "Session 1/[!h]*/**": true,
+        "Session 1/h[!e]*/**": true,
+        "Session 1/he[!l]*/**": true,
+        "Session 1/hel[!l]*/**": true,
+        "Session 1/hell[!o]*/**": true,
+        "Session 1/hello[!-]*/**": true,
+        "Session 1/hello-[!w]*/**": true,
+        "Session 1/hello-w[!o]*/**": true,
+        "Session 1/hello-wo[!r]*/**": true,
+        "Session 1/hello-wor[!l]*/**": true,
+        "Session 1/hello-worl[!d]*/**": true
+    }
+}
