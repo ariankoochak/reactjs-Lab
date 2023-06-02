@@ -1,5 +1,5 @@
 {
-  "name": "add-number",
+  "name": "counter-func-component",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
