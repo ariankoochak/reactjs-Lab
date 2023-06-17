@@ -8,8 +8,8 @@ export default function Stars() {
   const [submitrate,setSubmitRate] = useState(0);
   const [backUpSubmit,setBackUpSubmit] = useState(0);
 
-  const handleMouseEnter = (e)=>{
-    setRate(+(e.target.id))
+  const handleMouseEnter = (num)=>{
+    setRate(num)
     setSubmitRate(0);
   }
 
@@ -22,19 +22,19 @@ export default function Stars() {
     return (elementID <= rate || elementID <= submitrate) ? fullStar : emptyStar
   }
 
-  const handleSumbitRate = (e)=>{
-    setSubmitRate(+e.target.id);
-    setBackUpSubmit(+e.target.id);
+  const handleSumbitRate = (num)=>{
+    setSubmitRate(num);
+    setBackUpSubmit(num);
   }
 
   return (
       <>
         <div onMouseLeave={handleMouseOut}>
-          <img src={handleSoure(1)} alt="star" id='1' onMouseEnter={handleMouseEnter} onClick={handleSumbitRate}/>
-          <img src={handleSoure(2)} alt="star" id='2' onMouseEnter={handleMouseEnter} onClick={handleSumbitRate}/>
-          <img src={handleSoure(3)} alt="star" id='3' onMouseEnter={handleMouseEnter} onClick={handleSumbitRate}/>
-          <img src={handleSoure(4)} alt="star" id='4' onMouseEnter={handleMouseEnter} onClick={handleSumbitRate}/>
-          <img src={handleSoure(5)} alt="star" id='5' onMouseEnter={handleMouseEnter} onClick={handleSumbitRate}/>
+          <img src={handleSoure(1)} alt="star" onMouseEnter={()=>handleMouseEnter(1)} onClick={()=>handleSumbitRate(1)}/>
+          <img src={handleSoure(2)} alt="star" onMouseEnter={()=>handleMouseEnter(2)} onClick={()=>handleSumbitRate(2)}/>
+          <img src={handleSoure(3)} alt="star" onMouseEnter={()=>handleMouseEnter(3)} onClick={()=>handleSumbitRate(3)}/>
+          <img src={handleSoure(4)} alt="star" onMouseEnter={()=>handleMouseEnter(4)} onClick={()=>handleSumbitRate(4)}/>
+          <img src={handleSoure(5)} alt="star" onMouseEnter={()=>handleMouseEnter(5)} onClick={()=>handleSumbitRate(5)}/>
         </div>
       </>
   );
