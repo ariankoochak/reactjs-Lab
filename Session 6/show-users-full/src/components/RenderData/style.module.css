@@ -1,0 +1,19 @@
+.userCard{
+    font-size: 20px;
+}
+
+.nameCard{
+    font-size: 15px;
+}
+
+.imageCard{
+    margin: auto;
+    width: 60px;
+}
+
+.divCard{
+    display: inline-block;
+    background-color: grey;
+    margin: 10px;
+    border-radius: 10px;
+}
