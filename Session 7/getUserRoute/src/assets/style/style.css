@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+p {
+    display : inline;
+    margin : 10px;
+    font-size: 30px;
+    color: white;
+}
+
+button {
+}
+
+input {
+    font-size: 30px;
+}
