@@ -1,0 +1,19 @@
+.userStyle{
+    background-color: gray;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.allUsersStyle{
+    display: flex;
+}
+
+.nonSelectedUserStyle{
+    opacity: 50%;
+}
+
+.selectedUserStyle{
+    opacity: 100%;
+}
